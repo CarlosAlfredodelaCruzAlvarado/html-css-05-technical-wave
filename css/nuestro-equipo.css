@@ -1,0 +1,513 @@
+body{
+    background-color: #ffffff;
+    line-height: normal;
+}
+
+main{
+    margin-top:7%;
+}
+
+.seccion{
+    margin-top: 7%;
+}
+
+/*Header*/
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    top: 0;
+    background-color: white;
+}
+.aLogo{
+    height: 100%;
+}
+
+.logo{
+    margin-left: 20%;
+    height: 100%;
+}
+
+.navBar{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    align-items: center;
+    margin-right: 2%;
+    gap: 4%;
+    font-family: 'Mate', serif;;
+    font-size: 1.1rem;
+    
+}
+
+.navBar a, .navBar a:link, .navBar a:visited, .texto_C a, .texto_C a:link, .texto_C a:visited{
+    color:#013673;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navBar a:hover{
+    text-decoration: none;
+    color: initial;
+    cursor: pointer;
+    color: #0079ff;
+}
+
+/*Banner*/
+
+.bannerSuperior{
+    background-image: url(./img/banner3.jpg);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bannerSuperior h1{
+    font-size: 3rem;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    vertical-align:text-bottom;
+    color: whitesmoke;
+    text-shadow:4px 3px black; 
+    margin: 0 2%
+}
+
+.bannerSuperior button{
+height: 60px;
+width: 250px;
+font-size: 1rem;
+margin-top: 15%;
+font-family: 'Barlow', sans-serif;
+background-color: whitesmoke;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.bannerSuperior button:hover{
+    opacity: 0.9;
+}
+
+/*Sección A*/
+.seccion_A{
+    margin: 0 15%;
+}
+
+.texto_A{
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.texto_B, .texto_B p{
+    font-family: 'Mate', serif;;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.texto_C{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/*Sección B*/
+.seccion_B{
+    display: flex;
+    margin: 0 10%;
+    gap: 2%;
+    justify-content: center;
+}
+
+.seccion_B_sub{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.seccion_B .texto_B{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50px;
+    margin: 5% 10%;
+}
+
+.seccion_B .texto_C{
+    text-align: center;
+    margin: 0 5%;
+    font-size: 1.2rem;
+}
+
+.imgFlex{
+    width: 40%;
+    margin-bottom: 0%;
+    align-self: center;
+}
+
+/*Sección C*/
+.seccion_C{
+    margin: 0 10%;
+}
+
+.divTech{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 5%;
+    flex:0 0 25%
+}
+
+.imgTech{
+    width: 10%;
+    margin: 5%;
+}
+
+/*Sección D*/
+.seccion_D{
+margin: 0 5%;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    margin-top: 5%;
+    justify-content: center;
+
+}
+
+.colaboradores div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.colaboradoresImg{
+    width: 30%;
+    object-fit:fill;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+
+.colaboradores h1{
+    height: 20%;
+
+}
+
+.colaboradores h2{
+font-size: 1rem;
+font-weight: bold;
+}
+
+.colaboradores h3{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/*Sección E*/
+
+.seccion_E{
+    width: 100%;
+    padding:15% 0 7% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./img/bg1.png");
+    background-size: 20%;
+    background-repeat: repeat-x;
+}
+ 
+.seccion_E h1{
+    color: white;
+    margin-bottom: 5%;
+}
+
+.seccion_E button{
+    color: white;
+    border: solid 2px white;
+    background-color: transparent;
+    font-size: 1.5rem;
+    align-content: center;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.seccion_E button:hover{
+    background-color: white;
+    opacity: .6;
+    transition: 0.5s;
+    color: #250448;
+    font-weight: bold;
+}
+
+.carrera .texto_B {
+    border-top:1px solid gray;
+    padding-top: 1%;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 2% 20%;
+}
+
+.carrera .texto_C{
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0 20%;
+    border-bottom:1px solid gray;
+    padding-bottom: 1%;
+}
+
+.carrera_B .texto_B {
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2% 20%;
+}
+
+.carrera_B .texto_C{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2% 20%;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 7% 0 5%;
+    gap: 15%;
+}
+
+.footer a, .footer a:link, .footer a:visited{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footerSitios{
+    display:flex;
+    flex-direction: column;
+}
+
+.footerLegal{
+    display:flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.seccion{
+    margin-top: 5%;
+}
+
+.navBar{
+font-size: 0.9rem;
+}
+
+.bannerSuperior{
+    height: 350px;
+}
+
+.seccion_A{
+    margin: 0 5%;
+}
+
+.texto_A{
+    font-size: 1.5rem; 
+}
+
+.texto_B{
+    font-size: 1rem;
+}
+
+.texto_C{
+    font-size: 1rem;
+}
+
+.seccion_B{
+    margin: 0 5%;
+    gap: 2%;
+}
+
+.seccion_B .texto_C{
+    text-align: center;
+    margin: 0 5%;
+    font-size: 0.9rem;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+
+    .aLogo .logo{
+        margin-left: 0;
+    }
+
+    .header{
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        }
+    
+    .navBar{
+        flex-direction: column;
+        
+    }
+
+    .navBar a{
+        margin: 1%;
+    }
+
+    .bannerSuperior{
+        height: 200px;
+    }
+    
+    .bannerSuperior h1{
+        font-size: 1.3rem;
+        margin: 0 5%;
+        text-shadow:2px 1px black; 
+    }
+
+    .bannerSuperior button{
+    height: 30px;
+    }
+
+    .texto_A{
+        font-size: 1.3rem; 
+    }
+    
+    .seccion_A{
+        margin: 5%;
+    }
+
+    .texto_B, .texto_B p{
+        font-size: 1rem;
+    }
+    
+    .texto_C{
+        font-size: 1rem;
+    }
+
+    .seccion_B{
+        flex-direction: column;
+    }
+
+    .seccion_B_sub{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    
+    .seccion_B .texto_B{
+        margin: 2% 2%;
+        height: auto;
+    }
+    
+    .seccion_B .texto_C{
+        font-size: 1rem;
+    }
+    
+    .imgFlex{
+        width: 40%;
+        margin-bottom: 0%;
+        align-self: center;
+    }
+
+    .seccion_C{
+        margin: 0 10%;
+    }
+    
+    .imgTech{
+        width: 15%;
+    }
+
+    .seccion_D{
+        margin: 20% 10% 10%;
+        }
+
+    .colaboradores{
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+
+    .colaboradores div{
+        width: 100%;
+    }
+    
+   
+    .colaboradores h1, .colaboradores .texto_C{
+        height: auto;
+        margin-bottom: 2%;
+    
+    }
+    
+
+    .seccion_E{
+        padding:20% 0 10% 0;
+        background-size: 30%;
+    }
+    
+    .seccion_E h1{
+    font-size: 1rem;
+    margin: 5% 10%;
+
+    }
+
+    .carrera .texto_B {
+        
+        font-size: 1rem;
+        text-align: center;
+        margin: 2% 10%;
+    }
+    
+    .carrera .texto_C{
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 5% 10%;
+       
+    }
+    
+    .carrera_B .texto_B {
+    
+        font-size: 1rem;
+        text-align: center;
+        margin: 2% 20%;
+    }
+    
+    .carrera_B .texto_C{
+        font-size: 1rem;
+        margin: 5% 10%;
+    
+    }
+
+    .seccion_E button{
+        font-size: 1rem;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footerSitios{
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es, en, ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Wave</title>
+        <link rel="stylesheet" href="./css/contacto.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Mate&family=Prata&family=Young+Serif&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <header class="header">
+            <a class="aLogo" href="index.html">
+                <img src="./img/logo2.svg" alt="Logo" class="logo">
+            </a>
+            <div class="navBar">
+                <a href="index.html">Inicio</a>
+                <a href="lo-que-hacemos.html">Lo que hacemos</a>
+                <a href="nuestro-equipo.html">Nuestro equipo</a>
+                <a href="nuestra-comunidad.html">Nuestra comunidad</a>
+                <a href="contacto.html">Contáctanos</a>
+            </div>
+        </header>
+        <main>
+            <div class="bannerSuperior">
+                <h1>¡Hagamos algo genial!</h1>
+            </div>
+            <section class="seccion">
+                <div class="seccion_A">
+                    <h1 class="texto_A">Estamos a una llamada de distancia.</h1>
+                    <h2 class="texto_B">Siempre estamos interesados en participar en nuevos proyectos. Contactáctanos usando el formulario de abajo o puedes <a href="mailto:contacto@technicalwave.com">enviarnos un email</a> o <a href="tel:0000000000">llamarnos por teléfono.</a></h2>
+                    <h3 class="texto_C">Tenemos cobertura en todo México</h3>
+                </div>
+            </section>
+
+            <section class="seccion">
+                <form class="contact-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" minlength="10" maxlength="10" required>
+            
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+            <section class="seccion">
+                <div class="seccion_E">
+                    <h1 class="texto_A">¿Listo para llevar su negocio al siguiente nivel? Hablemos.</h1>
+                    <a href="contacto.html">
+                        <button>
+                            Programe una consulta gratis
+                        </button>
+                    </a>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footerSitios">
+                <h1 class="texto_A">Sitios de interés</h1>
+                <a href="contacto.html" class="texto_C">Contacto</a>
+                <a href="nuestro-equipo.html#carreras" class="texto_C">Carreras</a>
+                <a href="pasantias.html" class="texto_C">Pasantías</a>
+                <a href="soporte.html" class="texto_C">Soporte</a>
+            </div>
+            <div class="footerLegal">
+                <h1 class="texto_A">Legal</h1>
+                <a href="terminos-condiciones.html" class="texto_C">Términos y condiciones</a>
+                <a href="politica-privacidad.html" class="texto_C">Política de privacidad</a>
+                <h3 class="texto_C">&#169 2023 Tecnical Wave</h3>
+            </div>
+        </footer>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
